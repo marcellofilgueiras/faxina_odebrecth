@@ -25,7 +25,7 @@ reais2 <-function (x)
 
 #baixando metadados
 
-tjsp::autenticar(login = "11588710661", password = "SALVADOR194560")
+tjsp::autenticar(login = "", password = "")
 tjsp::baixar_cpopg(processos = odebretch_estadual, diretorio = "estadual/metadados")
 
 #lista comarcas cnj
