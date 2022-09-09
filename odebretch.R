@@ -217,7 +217,7 @@ tidyr::pivot_wider (id_cols = idProcesso, names_from = c(polo), values_from = c(
 
 
 ##baixando docs
-  tjsp::autenticar(login = "11588710661", password = "SALVADOR194560")
+  tjsp::autenticar(login = "", password = "")
 tjsp::tjsp_baixar_tabela_docs(process = odebretch_estadual, diretorio = "documentos")
 
 odebretch_estadual_tabelasdocs<- tjsp::tjsp_ler_tabela_docs(diretorio = "documentos")%>%
